@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterdemo/todoapp.dart';
 import 'package:flutterdemo/views/counter.dart';
 import 'package:flutterdemo/views/loginview.dart';
 
@@ -50,7 +51,7 @@ class MyLoginScreen extends StatelessWidget {
                     {
                       Navigator.push(context,
                       MaterialPageRoute(
-                        builder: (context)=>Counter()
+                        builder: (context)=>ToDoAppp()
                       ));
                       //print("Login Success");
                     }
