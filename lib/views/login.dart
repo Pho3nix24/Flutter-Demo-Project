@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterdemo/todoapp.dart';
 import 'package:flutterdemo/views/counter.dart';
 import 'package:flutterdemo/views/loginview.dart';
+import 'package:flutterdemo/views/menu.dart';
 
 
 class MyLoginScreen extends StatelessWidget {
@@ -51,7 +52,7 @@ class MyLoginScreen extends StatelessWidget {
                     {
                       Navigator.push(context,
                       MaterialPageRoute(
-                        builder: (context)=>ToDoAppp()
+                        builder: (context)=>MyMenu()
                       ));
                       //print("Login Success");
                     }
